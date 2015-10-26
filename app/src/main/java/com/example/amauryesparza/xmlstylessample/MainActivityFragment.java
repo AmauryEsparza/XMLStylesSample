@@ -1,7 +1,6 @@
 package com.example.amauryesparza.xmlstylessample;
 
 import android.app.Activity;
-import android.app.FragmentManager;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -11,8 +10,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.example.amauryesparza.xmlstylessample.communicator.FragmentEventCallback;
-
-import java.util.zip.Inflater;
 
 /**
  * A placeholder fragment containing a simple view.
@@ -52,6 +49,4 @@ public class MainActivityFragment extends Fragment implements View.OnClickListen
         //call the callback activity
         fragmentCallback.onFragmentClickEvent(v);
     }
-
-
 }
